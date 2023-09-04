@@ -13,4 +13,4 @@ steps:
 - task: MSBuild@1
   inputs:
     solution: '**/*.cbproj'
-    msbuildArguments: '/t:rebuild'
+    msbuildArguments: '/t:release'
