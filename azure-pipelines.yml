@@ -11,6 +11,7 @@ steps:
   inputs:
     targetType: 'inline'
     script: |
+      export shaked=new
       for i in $(cat envs); do export $i; done
 
 - task: CmdLine@2
