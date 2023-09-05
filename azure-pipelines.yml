@@ -12,5 +12,4 @@ pool:
 steps:
 - task: MSBuild@1
   inputs:
-    solution: '**/*.cbproj'
-    msbuildArguments: '/t:make'
+    solution: 'CPP/Modern CPP/CppStringView/*.cbproj'
